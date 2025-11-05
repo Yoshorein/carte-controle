@@ -60,43 +60,15 @@
       ],
       "drc_exclusions": [
         [
-          "copper_edge_clearance|179989600|94081400|18073162-75d9-471e-ada2-2d0ceb60597c|b11edcb1-04d6-49f0-92c2-5b4f3867f544",
+          "courtyards_overlap|51271108|82425175|07bcbef0-7be8-498b-a393-0aa27d0326e8|2fbc50f8-4696-456b-b8eb-60e697351fc7",
           ""
         ],
         [
-          "copper_edge_clearance|182529600|94081400|18073162-75d9-471e-ada2-2d0ceb60597c|2484e006-cccd-4769-823e-7b0fd6acbbca",
+          "malformed_courtyard|22600000|97496000|5de8ea11-f22b-42bc-8172-c33afb99eab5|00000000-0000-0000-0000-000000000000",
           ""
         ],
         [
-          "copper_edge_clearance|185069600|94081400|18073162-75d9-471e-ada2-2d0ceb60597c|ec7a23bb-288c-4c00-97f9-12f90fa7a66d",
-          ""
-        ],
-        [
-          "copper_edge_clearance|187609600|94081400|18073162-75d9-471e-ada2-2d0ceb60597c|988cb1bd-3b0b-4d4c-a812-09d10fd0de62",
-          ""
-        ],
-        [
-          "copper_edge_clearance|190149600|94081400|18073162-75d9-471e-ada2-2d0ceb60597c|a09268ba-c7bd-4247-99d0-cb62868186e8",
-          ""
-        ],
-        [
-          "copper_edge_clearance|192689600|94081400|18073162-75d9-471e-ada2-2d0ceb60597c|7ced32f3-51e9-438f-b6d3-0f6e09d9d3f0",
-          ""
-        ],
-        [
-          "copper_edge_clearance|195229600|94081400|18073162-75d9-471e-ada2-2d0ceb60597c|49c8e339-afcd-4b19-97ac-e5f784416810",
-          ""
-        ],
-        [
-          "courtyards_overlap|191771108|98089821|02b56007-968e-4eae-bab5-34ab2af0b13c|2f9b3356-8fed-4739-8e49-f2a328130fea",
-          ""
-        ],
-        [
-          "malformed_courtyard|175800000|114796000|edb9b4a4-5f97-4bec-85a8-645cb74df5d2|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "malformed_courtyard|210820000|115050000|edb9b4a4-5f97-4bec-85a8-645cb74df5d2|00000000-0000-0000-0000-000000000000",
+          "malformed_courtyard|57620000|97750000|5de8ea11-f22b-42bc-8172-c33afb99eab5|00000000-0000-0000-0000-000000000000",
           ""
         ]
       ],
