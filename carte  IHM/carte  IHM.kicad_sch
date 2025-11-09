@@ -2581,50 +2581,6 @@
 			)
 		)
 	)
-	(global_label "DC"
-		(shape input)
-		(at 88.9 101.6 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "3ad969a1-c21f-4873-9af8-69c299250c2c")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 83.3748 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "RST"
-		(shape input)
-		(at 88.9 97.79 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "3c2a874c-944e-43d8-8cf6-390351b32a41")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 82.4677 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "RST"
 		(shape input)
 		(at 31.75 71.12 270)
@@ -2660,6 +2616,28 @@
 		(uuid "43c4546b-aad1-42ac-b428-39de0a88acce")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 46.99 77.8547 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "DC"
+		(shape input)
+		(at 88.9 97.79 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5e90cba8-600e-4853-94f6-0ee253cc27dd")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 83.3748 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2955,6 +2933,28 @@
 			)
 		)
 	)
+	(global_label "RST"
+		(shape input)
+		(at 88.9 101.6 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "fd33d6fc-20c1-4b5b-8fe9-edf731b0c5a0")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 82.4677 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(symbol
 		(lib_id "power:GND")
 		(at 26.67 74.93 0)
@@ -3023,7 +3023,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 60.96 115.57 90)
+		(at 60.96 118.11 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3032,7 +3032,7 @@
 		(fields_autoplaced yes)
 		(uuid "071096c4-7a76-44b3-b298-8844e102f6a7")
 		(property "Reference" "#PWR07"
-			(at 64.77 115.57 0)
+			(at 64.77 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3041,7 +3041,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 57.15 115.5699 90)
+			(at 57.15 118.1099 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3050,7 +3050,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 60.96 115.57 0)
+			(at 60.96 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3059,7 +3059,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 60.96 115.57 0)
+			(at 60.96 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3068,7 +3068,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 60.96 115.57 0)
+			(at 60.96 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3567,7 +3567,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 60.96 118.11 270)
+		(at 60.96 115.57 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3576,7 +3576,7 @@
 		(fields_autoplaced yes)
 		(uuid "4d6bea16-7f3b-4c35-8677-c88cc22f5f2d")
 		(property "Reference" "#PWR016"
-			(at 54.61 118.11 0)
+			(at 54.61 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3585,7 +3585,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 57.15 118.1099 90)
+			(at 57.15 115.5699 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3594,7 +3594,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 60.96 118.11 0)
+			(at 60.96 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3603,7 +3603,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 60.96 118.11 0)
+			(at 60.96 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3612,7 +3612,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 60.96 118.11 0)
+			(at 60.96 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4146,7 +4146,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D10.0mm_P5.00mm"
+		(property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm"
 			(at 152.4 86.36 0)
 			(effects
 				(font
